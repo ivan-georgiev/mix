@@ -1,0 +1,334 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7b4aed31-9f6a-4d21-8eb6-95fcd2b06862" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ThesisesDW</ID>
+  <Name>ThesisesDW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>ThesisesDW</DataSourceID>
+  <Schema>
+    <xs:schema id="ThesisesDW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="ThesisesDW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="f6343a57-fe91-4d58-aefe-66f2a6835234">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_A_DATES" msprop:design-time-name="7d9da607-a166-47ab-88c9-6f17515bd735" msprop:DbTableName="A_DATES" msprop:FriendlyName="A_DATES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f89cd210-1957-48ce-ac2b-f5751865f178" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="YEAR" msprop:design-time-name="032b398d-2022-437c-9507-63d1973cf048" msprop:DbColumnName="YEAR" msprop:FriendlyName="YEAR">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SEMESTER" msprop:design-time-name="7ca1c27d-298d-4f77-b367-cb9d2f75af42" msprop:DbColumnName="SEMESTER" msprop:FriendlyName="SEMESTER">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ST_DATE" msprop:design-time-name="3184592a-9286-48a5-b323-14063ff82b7d" msprop:DbColumnName="ST_DATE" msprop:FriendlyName="ST_DATE" type="xs:dateTime" />
+                  <xs:element name="END_DATE" msprop:design-time-name="b50a5783-4807-4a1a-ae66-069124d4f476" msprop:DbColumnName="END_DATE" msprop:FriendlyName="END_DATE" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_B_DATES" msprop:design-time-name="c7841fed-51bd-4045-bf27-52aeb3ebcdf6" msprop:DbTableName="B_DATES" msprop:FriendlyName="B_DATES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="2fabd556-5fea-43c1-8ac1-9a4491312525" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="YEAR" msprop:design-time-name="866cc00a-6a46-429d-83ec-2682aea3e844" msprop:DbColumnName="YEAR" msprop:FriendlyName="YEAR">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ST_DATE" msprop:design-time-name="c56b8f82-0bf0-46be-85b5-95ecaa11014c" msprop:DbColumnName="ST_DATE" msprop:FriendlyName="ST_DATE" type="xs:dateTime" />
+                  <xs:element name="END_DATE" msprop:design-time-name="ff9c294c-904f-4feb-a591-8b1c1377aca5" msprop:DbColumnName="END_DATE" msprop:FriendlyName="END_DATE" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_COUNTRIES" msprop:design-time-name="094aa742-8c4c-4633-ae08-ab99d87a2743" msprop:DbTableName="COUNTRIES" msprop:FriendlyName="COUNTRIES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="4382f1cd-386e-4700-8a31-d909ab94d035" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="ORG_ID" msprop:design-time-name="edbea522-b1fe-47c4-bac4-73e5f0bd7556" msprop:DbColumnName="ORG_ID" msprop:FriendlyName="ORG_ID" type="xs:int" minOccurs="0" />
+                  <xs:element name="COUNTRY_NAME" msprop:design-time-name="0cab03b1-d47a-488f-b8c3-6973e29964a2" msprop:DbColumnName="COUNTRY_NAME" msprop:FriendlyName="COUNTRY_NAME">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DEPARTAMENTS" msprop:design-time-name="b4054e2c-500f-4833-a4c9-1c11dbbd1d4b" msprop:DbTableName="DEPARTAMENTS" msprop:FriendlyName="DEPARTAMENTS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f31589a8-d86d-41da-ad9a-0c699c9d2884" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="ORG_ID" msprop:design-time-name="0a8ecd4d-1678-4c49-ab89-3e4527c84198" msprop:DbColumnName="ORG_ID" msprop:FriendlyName="ORG_ID" type="xs:int" />
+                  <xs:element name="DPT_NAME" msprop:design-time-name="9b0e093b-30c3-4784-92b5-4a1f077e60f0" msprop:DbColumnName="DPT_NAME" msprop:FriendlyName="DPT_NAME">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FACULTY" msprop:design-time-name="f5517696-0252-45cb-8fb6-68ecbe0243cc" msprop:DbColumnName="FACULTY" msprop:FriendlyName="FACULTY">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_EDUCATION_FORMS" msprop:design-time-name="ac610c5a-6c58-42ba-b705-3a2cff2efff6" msprop:DbTableName="EDUCATION_FORMS" msprop:FriendlyName="EDUCATION_FORMS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="73ace348-53ac-41eb-9355-fbff3a3345ec" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="ORG_ID" msprop:design-time-name="1eed22ca-9eef-4aa9-9854-ae85d599b329" msprop:DbColumnName="ORG_ID" msprop:FriendlyName="ORG_ID" type="xs:int" />
+                  <xs:element name="FORM_NAME" msprop:design-time-name="4c8a605f-3e0c-4845-8300-8837bbf9639a" msprop:DbColumnName="FORM_NAME" msprop:FriendlyName="FORM_NAME">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_KEYWORDS" msprop:design-time-name="5d2585eb-ac60-4ee3-9da8-4f80501d6d22" msprop:DbTableName="KEYWORDS" msprop:FriendlyName="KEYWORDS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="793d520e-ca96-4a00-800e-0ba313be70f8" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="ORG_ID" msprop:design-time-name="b62af125-8b67-41c9-9bd1-5dc95017b3a9" msprop:DbColumnName="ORG_ID" msprop:FriendlyName="ORG_ID" type="xs:int" />
+                  <xs:element name="KWORD" msprop:design-time-name="6389dca2-e4cb-4a6c-a605-eeba4121af93" msprop:DbColumnName="KWORD" msprop:FriendlyName="KWORD">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_OFFICIALS" msprop:design-time-name="581918ab-e8de-4102-8252-3cbd8fef371e" msprop:DbTableName="OFFICIALS" msprop:FriendlyName="OFFICIALS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="cc8c61be-607a-4431-85e5-4534cede75df" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="ORG_ID" msprop:design-time-name="5773698b-4ea7-4114-b563-9d57e2bd4cab" msprop:DbColumnName="ORG_ID" msprop:FriendlyName="ORG_ID" type="xs:int" />
+                  <xs:element name="OFFICIAL_NAME" msprop:design-time-name="8af7d553-cc57-4d9d-8013-dd6e5d368087" msprop:DbColumnName="OFFICIAL_NAME" msprop:FriendlyName="OFFICIAL_NAME">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FACULTY" msprop:design-time-name="94d86ab0-a978-4b18-b0fd-aa7af49244ac" msprop:DbColumnName="FACULTY" msprop:FriendlyName="FACULTY">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DEPARTAMENT" msprop:design-time-name="0f43416b-4c55-4c80-a855-c2cc0b457445" msprop:DbColumnName="DEPARTAMENT" msprop:FriendlyName="DEPARTAMENT">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="POSITION" msprop:design-time-name="80174559-40f9-4470-a5e3-0debb3610de0" msprop:DbColumnName="POSITION" msprop:FriendlyName="POSITION">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SPECIALITIES" msprop:design-time-name="0e54e8d4-6d0c-4f41-8a68-3ccd5fb2f68a" msprop:DbTableName="SPECIALITIES" msprop:FriendlyName="SPECIALITIES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="0e455b0b-e932-4045-ac07-8a4f9f99d033" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:int" />
+                  <xs:element name="ORG_ID" msprop:design-time-name="329354fd-4c55-4eec-8c48-ef8c989b6b2b" msprop:DbColumnName="ORG_ID" msprop:FriendlyName="ORG_ID" type="xs:int" />
+                  <xs:element name="SPECIALITY_NAME" msprop:design-time-name="7ba5bb3f-c06d-4c10-b6d8-d9f7e4c409e1" msprop:DbColumnName="SPECIALITY_NAME" msprop:FriendlyName="SPECIALITY_NAME">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FACULTY" msprop:design-time-name="420b543d-85ee-4d29-8c10-dbeda489ce51" msprop:DbColumnName="FACULTY" msprop:FriendlyName="FACULTY">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DEPARTAMENT" msprop:design-time-name="ee12e7e4-f017-4cbd-9343-a37072b8e1d7" msprop:DbColumnName="DEPARTAMENT" msprop:FriendlyName="DEPARTAMENT">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DEGREE" msprop:design-time-name="94949bae-9cf9-4875-b72f-5a46bc094c39" msprop:DbColumnName="DEGREE" msprop:FriendlyName="DEGREE">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_THESISES_FACT_A" msprop:design-time-name="5eab07ec-191c-4cc5-9feb-c313ea14c11f" msprop:DbTableName="THESISES_FACT_A" msprop:FriendlyName="THESISES_FACT_A" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="COUNTRY_ID" msprop:design-time-name="5615eaf4-ac34-4689-ac47-26453570220b" msprop:DbColumnName="COUNTRY_ID" msprop:FriendlyName="COUNTRY_ID" type="xs:int" />
+                  <xs:element name="SPECIALITY_ID" msprop:design-time-name="5fe1d129-6dfa-4fbe-9449-3b4fbcf569ad" msprop:DbColumnName="SPECIALITY_ID" msprop:FriendlyName="SPECIALITY_ID" type="xs:int" />
+                  <xs:element name="FORM_ID" msprop:design-time-name="78a45e08-82ab-47d9-9920-84beff4bcb7d" msprop:DbColumnName="FORM_ID" msprop:FriendlyName="FORM_ID" type="xs:int" />
+                  <xs:element name="OFFICIAL_ID" msprop:design-time-name="be0157c9-840e-4767-812a-ba8eb48080a4" msprop:DbColumnName="OFFICIAL_ID" msprop:FriendlyName="OFFICIAL_ID" type="xs:int" />
+                  <xs:element name="DATE_ID" msprop:design-time-name="29c13e2f-3b5f-47d9-a0c0-1e940e268d61" msprop:DbColumnName="DATE_ID" msprop:FriendlyName="DATE_ID" type="xs:int" />
+                  <xs:element name="DPL_COUNT" msprop:design-time-name="12e73ca6-06c2-4aed-a3de-7c25bfb33921" msprop:DbColumnName="DPL_COUNT" msprop:FriendlyName="DPL_COUNT" type="xs:int" />
+                  <xs:element name="DPL_SCORE_SUM" msprop:design-time-name="d14ff9cb-2fdf-4b09-b36c-051c4fd3c5b2" msprop:DbColumnName="DPL_SCORE_SUM" msprop:FriendlyName="DPL_SCORE_SUM" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_THESISES_FACT_B" msprop:design-time-name="e384c47c-f0d2-48e7-a3c9-9d9d9f3249a7" msprop:DbTableName="THESISES_FACT_B" msprop:FriendlyName="THESISES_FACT_B" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DEPARTAMENT_ID" msprop:design-time-name="b63d1260-a74c-4072-8ac4-a70549ddde88" msprop:DbColumnName="DEPARTAMENT_ID" msprop:FriendlyName="DEPARTAMENT_ID" type="xs:int" />
+                  <xs:element name="KEYWORD_ID" msprop:design-time-name="b83ae37a-e9a5-408e-b801-95ab37f81e16" msprop:DbColumnName="KEYWORD_ID" msprop:FriendlyName="KEYWORD_ID" type="xs:int" />
+                  <xs:element name="DATE_ID" msprop:design-time-name="c4f4cbd0-52e3-4583-b669-e5acf1038b76" msprop:DbColumnName="DATE_ID" msprop:FriendlyName="DATE_ID" type="xs:int" />
+                  <xs:element name="DPL_COUNT" msprop:design-time-name="fadb220f-5b67-4ae3-a42f-3b548e30ab61" msprop:DbColumnName="DPL_COUNT" msprop:FriendlyName="DPL_COUNT" type="xs:int" />
+                  <xs:element name="DPL_SCORE_SUM" msprop:design-time-name="00d8837c-6c81-4fbd-9c4a-10267ca98f7d" msprop:DbColumnName="DPL_SCORE_SUM" msprop:FriendlyName="DPL_SCORE_SUM" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_A_DATES" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_B_DATES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_B_DATES" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_COUNTRIES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_COUNTRIES" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_DEPARTAMENTS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DEPARTAMENTS" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_EDUCATION_FORMS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_EDUCATION_FORMS" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_KEYWORDS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_KEYWORDS" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_OFFICIALS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_OFFICIALS" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_SPECIALITIES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SPECIALITIES" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+        <xs:unique name="dbo_THESISES_FACT_A_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_THESISES_FACT_A" />
+          <xs:field xpath="COUNTRY_ID" />
+          <xs:field xpath="SPECIALITY_ID" />
+          <xs:field xpath="FORM_ID" />
+          <xs:field xpath="OFFICIAL_ID" />
+          <xs:field xpath="DATE_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_THESISES_FACT_B_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_THESISES_FACT_B" />
+          <xs:field xpath="DEPARTAMENT_ID" />
+          <xs:field xpath="KEYWORD_ID" />
+          <xs:field xpath="DATE_ID" />
+        </xs:unique>
+        <xs:keyref name="FK_THESISES_FACT_B_B_DATES" refer="dbo_B_DATES_Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_B" />
+          <xs:field xpath="DATE_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_THESISES_FACT_B_KEYWORDS" refer="dbo_KEYWORDS_Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_B" />
+          <xs:field xpath="KEYWORD_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_THESISES_FACT_B_DEPARTAMENTS" refer="dbo_DEPARTAMENTS_Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_B" />
+          <xs:field xpath="DEPARTAMENT_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_THESISES_FACT_A_A_DATES" refer="Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_A" />
+          <xs:field xpath="DATE_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_THESISES_FACT_A_SPECIALITIES" refer="dbo_SPECIALITIES_Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_A" />
+          <xs:field xpath="SPECIALITY_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_THESISES_FACT_A_OFFICIALS" refer="dbo_OFFICIALS_Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_A" />
+          <xs:field xpath="OFFICIAL_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_THESISES_FACT_A_COUNTRIES" refer="dbo_COUNTRIES_Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_A" />
+          <xs:field xpath="COUNTRY_ID" />
+        </xs:keyref>
+        <xs:keyref name="FK_THESISES_FACT_A_EDUCATION_FORMS" refer="dbo_EDUCATION_FORMS_Constraint1">
+          <xs:selector xpath=".//dbo_THESISES_FACT_A" />
+          <xs:field xpath="FORM_ID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <ThesisesDW xmlns="" />
+  </Schema>
+</DataSourceView>

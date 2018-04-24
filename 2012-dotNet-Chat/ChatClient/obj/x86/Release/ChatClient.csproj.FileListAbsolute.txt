@@ -1,0 +1,12 @@
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\bin\Release\ChatClient.exe
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\bin\Release\ChatClient.pdb
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\bin\Release\Commons.dll
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\bin\Release\Commons.pdb
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\ClientApp.Client.resources
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\ClientApp.PrivateChat.resources
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\ClientApp.Properties.Resources.resources
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\ChatClient.exe
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\ChatClient\obj\x86\Release\ChatClient.pdb

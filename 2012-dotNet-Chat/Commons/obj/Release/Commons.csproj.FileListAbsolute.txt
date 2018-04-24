@@ -1,0 +1,5 @@
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\bin\Release\Commons.dll
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\bin\Release\Commons.pdb
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\obj\Release\ResolveAssemblyReference.cache
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\obj\Release\Commons.dll
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\obj\Release\Commons.pdb

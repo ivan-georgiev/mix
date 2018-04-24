@@ -1,0 +1,188 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f331cc92-58dc-4e74-ba5b-bfef20e2d532" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SPECIALITIES_AS</ID>
+  <Name>SPECIALITIES_AS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>MDXFilterComponent</Name>
+      <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/SQLServer/reporting/QuerySpecification"&gt;&lt;FilterItems xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition" /&gt;&lt;/Filter&gt;</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="CubeDimensionBinding" dwd:design-time-name="c19be8a5-a747-46da-9be0-a1b59212cb6b">
+    <DataSourceID>.</DataSourceID>
+    <CubeID>ThesisesDW</CubeID>
+    <CubeDimensionID>SPECIALITIES</CubeDimensionID>
+    <Filter></Filter>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5f971029-92a1-4766-8eb4-2a13e7434506">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <IsKey>true</IsKey>
+      <Type>Long</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="145afb00-6118-42e6-9f5c-5b6a45e07242">
+        <CubeID>ThesisesDW</CubeID>
+        <CubeDimensionID>SPECIALITIES</CubeDimensionID>
+        <AttributeID>ID</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Key</Content>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a0ff315c-4f36-4e05-b04f-6f70ce117af5">
+      <ID>DEGREE</ID>
+      <Name>DEGREE</Name>
+      <Type>Text</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="7ce84fac-8748-4dcd-9295-abe8b00780fa">
+        <CubeID>ThesisesDW</CubeID>
+        <CubeDimensionID>SPECIALITIES</CubeDimensionID>
+        <AttributeID>DEGREE</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Discrete</Content>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5a8af562-78b8-48c7-bd9a-df6a7cb4d51f">
+      <ID>DEPARTAMENT</ID>
+      <Name>DEPARTAMENT</Name>
+      <Type>Text</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="4aedc405-1aff-40db-89d7-b3419b92fa21">
+        <CubeID>ThesisesDW</CubeID>
+        <CubeDimensionID>SPECIALITIES</CubeDimensionID>
+        <AttributeID>DEPARTAMENT</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Discrete</Content>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="91db5568-c57d-43ec-933d-06684ba13b5c">
+      <ID>FACULTY</ID>
+      <Name>FACULTY</Name>
+      <Type>Text</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="e1d24d60-00ed-4aba-8a34-ee10be6874fb">
+        <CubeID>ThesisesDW</CubeID>
+        <CubeDimensionID>SPECIALITIES</CubeDimensionID>
+        <AttributeID>FACULTY</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Discrete</Content>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ae0f588f-8ae3-4f33-ba90-74435f01279d">
+      <ID>SPECIALITY NAME</ID>
+      <Name>SPECIALITY NAME</Name>
+      <Type>Text</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="6a571cb4-1031-4dee-b607-9d85b8b0509f">
+        <CubeID>ThesisesDW</CubeID>
+        <CubeDimensionID>SPECIALITIES</CubeDimensionID>
+        <AttributeID>SPECIALITY NAME</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Discrete</Content>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0b124b6c-baed-4444-8b7a-2dd4c7e18571">
+      <ID>DPL COUNT</ID>
+      <Name>DPL COUNT</Name>
+      <Type>Long</Type>
+      <Source xsi:type="MeasureBinding" dwd:design-time-name="23f9e03c-0be5-4a20-a90d-098d7fe50a6c">
+        <MeasureID>DPL COUNT</MeasureID>
+      </Source>
+      <Content>Discretized</Content>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ea6de967-d273-4f0f-abf9-47f6b26ee303">
+      <ID>DPL SCORE SUM</ID>
+      <Name>DPL SCORE SUM</Name>
+      <Type>Double</Type>
+      <Source xsi:type="MeasureBinding" dwd:design-time-name="ca085145-32a6-47ea-b165-9867ae4defc0">
+        <MeasureID>DPL SCORE SUM</MeasureID>
+      </Source>
+      <Content>Discretized</Content>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="6974dc19-2556-4086-899f-f0e76445dbe3">
+      <ID>SPECIALITIES_AS</ID>
+      <Name>SPECIALITIES_AS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="50554546-1f66-42de-a21b-9bc68cec4959">
+          <ID>ID</ID>
+          <Name>ID</Name>
+          <SourceColumnID>ID</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="0152c90c-2a51-43ae-a236-5cb6e5278d64">
+          <ID>DEGREE</ID>
+          <Name>DEGREE</Name>
+          <SourceColumnID>DEGREE</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="64549cfd-e06d-4ec0-a0bc-51835a10c11b">
+          <ID>DEPARTAMENT</ID>
+          <Name>DEPARTAMENT</Name>
+          <SourceColumnID>DEPARTAMENT</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="89c59dc2-d47e-4bcc-bed6-080dead08cab">
+          <ID>FACULTY</ID>
+          <Name>FACULTY</Name>
+          <SourceColumnID>FACULTY</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="f5eaba90-fbf9-4522-978b-5abf664ff2ff">
+          <ID>SPECIALITY NAME</ID>
+          <Name>SPECIALITY NAME</Name>
+          <SourceColumnID>SPECIALITY NAME</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="30abccdd-7554-4ebc-a5f4-c2d302a66f63">
+          <ID>DPL COUNT</ID>
+          <Name>DPL COUNT</Name>
+          <SourceColumnID>DPL COUNT</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="27383541-4d3d-4bee-a0ec-a7733f603456">
+          <ID>DPL SCORE SUM</ID>
+          <Name>DPL SCORE SUM</Name>
+          <SourceColumnID>DPL SCORE SUM</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>

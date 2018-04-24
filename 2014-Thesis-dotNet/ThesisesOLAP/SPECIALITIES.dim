@@ -1,0 +1,281 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c97f1bbc-9786-4ee8-8f3b-9956657088fc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SPECIALITIES</ID>
+  <Name>SPECIALITIES</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1250" scrolltop="-2130" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6350" y="7832" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="SPECIALITIES" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000e20e0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_SPECIALITIES" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1250</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2130</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="130">
+            <Shape Id="ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="SPECIALITY NAME" Expanded="false">
+              <Attributes>
+                <Attribute Id="SPECIALITY NAME" />
+              </Attributes>
+              <Position x="187" y="20" />
+            </Shape>
+            <Shape Id="DEPARTAMENT" Expanded="false">
+              <Attributes>
+                <Attribute Id="DEPARTAMENT" />
+              </Attributes>
+              <Position x="355" y="20" />
+            </Shape>
+            <Shape Id="FACULTY" Expanded="false">
+              <Attributes>
+                <Attribute Id="FACULTY" />
+              </Attributes>
+              <Position x="522" y="20" />
+            </Shape>
+            <Shape Id="DEGREE" Expanded="false">
+              <Attributes>
+                <Attribute Id="DEGREE" />
+              </Attributes>
+              <Position x="355" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="31b069fd-5898-40e6-bfc0-a264500d63da">
+    <DataSourceViewID>ThesisesDW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="3907b61d-b97f-454b-a50f-8d242e3023a4">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="75563f18-2197-4d09-9edb-a29f4b4ce737">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="420f833c-f215-489e-baf8-651a0f856832">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="28e8f84d-d17e-493d-843a-ea9b44b94c80">
+            <TableID>dbo_SPECIALITIES</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="505d8da4-7c6e-47d3-9252-30d8dfd5730a">
+          <AttributeID>SPECIALITY NAME</AttributeID>
+          <Name>SPECIALITY NAME</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="880787d8-4d6d-41a2-9aff-7b986edba334">
+      <ID>SPECIALITY NAME</ID>
+      <Name>SPECIALITY NAME</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="509ca34a-971d-48e2-84a9-59130d07fd97">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff832db3-6b5e-4e9b-912a-e3f123d2b029">
+            <TableID>dbo_SPECIALITIES</TableID>
+            <ColumnID>SPECIALITY_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="db51ccbb-3158-418b-84a3-a160134e31af">
+          <AttributeID>DEGREE</AttributeID>
+          <Name>DEGREE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1f5aa5d7-f2a6-4a0d-9b01-b97bd9415ff6">
+          <AttributeID>DEPARTAMENT</AttributeID>
+          <Name>DEPARTAMENT</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="663d4227-78ec-4d31-aa1f-b5ef448f60dd">
+      <ID>FACULTY</ID>
+      <Name>FACULTY</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="68218553-6cb5-468b-9ced-ead4e91645da">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="554a3e27-e386-426a-aa8f-828d8ebf6634">
+            <TableID>dbo_SPECIALITIES</TableID>
+            <ColumnID>FACULTY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="edfe410f-e21a-473b-b9f4-3e0087c51dec">
+      <ID>DEPARTAMENT</ID>
+      <Name>DEPARTAMENT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b5dd4c9c-b2ec-45e5-966b-5565ad86de48">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="27cf3421-c616-42df-862d-958a797293c4">
+            <TableID>dbo_SPECIALITIES</TableID>
+            <ColumnID>FACULTY</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="455519dc-8aba-41c6-870c-d4716f8b775f">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a74bcfe-1fbe-4104-84d5-92e271cfa318">
+            <TableID>dbo_SPECIALITIES</TableID>
+            <ColumnID>DEPARTAMENT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="aa0127f4-f8bc-436e-a9b3-7c6bbe38417a">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4c184f21-b85a-4832-8e0a-00e0d94699b0">
+          <TableID>dbo_SPECIALITIES</TableID>
+          <ColumnID>DEPARTAMENT</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b95ef856-4e96-46e0-a2ea-13ff3730e76c">
+          <AttributeID>FACULTY</AttributeID>
+          <Name>FACULTY</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d6090958-1493-42c7-9184-5114fee1c1b1">
+      <ID>DEGREE</ID>
+      <Name>DEGREE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f009df6f-4a3a-4f17-943c-25c48f198fa3">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58ffc62e-4a29-4c0d-8045-993ea5591696">
+            <TableID>dbo_SPECIALITIES</TableID>
+            <ColumnID>DEGREE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="47fc341d-ea0f-4080-9f87-bdc7a8f02993">
+      <ID>Hierarchy</ID>
+      <Name>HierarchyStruct</Name>
+      <Levels>
+        <Level dwd:design-time-name="3f51726e-e5ee-4cdf-819c-f1ebd9128dc3">
+          <ID>FACULTY</ID>
+          <Name>FACULTY</Name>
+          <SourceAttributeID>FACULTY</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2989a479-4bce-44a6-ab2d-e92fafaec86b">
+          <ID>DEPARTAMENT</ID>
+          <Name>DEPARTAMENT</Name>
+          <SourceAttributeID>DEPARTAMENT</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f8a73c18-1343-4922-9232-1c648b7dd925">
+          <ID>SPECIALITY NAME</ID>
+          <Name>SPECIALITY NAME</Name>
+          <SourceAttributeID>SPECIALITY NAME</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="fa4ce9ab-5cfd-4af0-9553-a85592ea78b3">
+      <ID>Hierarchy 1</ID>
+      <Name>HierarchyLevel</Name>
+      <Levels>
+        <Level dwd:design-time-name="377f645e-07b2-4cae-9ddb-8ef1a9f445c6">
+          <ID>DEGREE</ID>
+          <Name>DEGREE</Name>
+          <SourceAttributeID>DEGREE</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="85f05fda-c3dc-4fcb-9785-78fe7f281d04">
+          <ID>SPECIALITY NAME</ID>
+          <Name>SPECIALITY NAME</Name>
+          <SourceAttributeID>SPECIALITY NAME</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

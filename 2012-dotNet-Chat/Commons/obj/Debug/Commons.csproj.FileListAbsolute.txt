@@ -1,0 +1,10 @@
+D:\Dev\Visual Studio 2010\Projects\WindowsFormsApplication1\Commons\bin\Debug\Commons.dll
+D:\Dev\Visual Studio 2010\Projects\WindowsFormsApplication1\Commons\bin\Debug\Commons.pdb
+D:\Dev\Visual Studio 2010\Projects\WindowsFormsApplication1\Commons\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Visual Studio 2010\Projects\WindowsFormsApplication1\Commons\obj\Debug\Commons.dll
+D:\Dev\Visual Studio 2010\Projects\WindowsFormsApplication1\Commons\obj\Debug\Commons.pdb
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\bin\Debug\Commons.dll
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\bin\Debug\Commons.pdb
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\obj\Debug\Commons.dll
+D:\Dev\Visual Studio 2010\Projects\ClientServerChat\Commons\obj\Debug\Commons.pdb

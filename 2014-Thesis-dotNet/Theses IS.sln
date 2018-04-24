@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThesesController", "ThesisesController\ThesesController.csproj", "{67284E6D-D912-4E2B-9DAA-D164495D9A33}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ThesesDW_ETL", "ThesisesDW_ETL\ThesesDW_ETL.dtproj", "{C496DA8B-6A61-4E33-9342-6DBE32DA8031}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33} = {67284E6D-D912-4E2B-9DAA-D164495D9A33}
+	EndProjectSection
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ThesesOLAP", "ThesisesOLAP\ThesesOLAP.dwproj", "{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33} = {67284E6D-D912-4E2B-9DAA-D164495D9A33}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Development|x86 = Development|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33}.Debug|x86.ActiveCfg = Debug|x86
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33}.Debug|x86.Build.0 = Debug|x86
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33}.Development|x86.ActiveCfg = Debug|x86
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33}.Development|x86.Build.0 = Debug|x86
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33}.Release|x86.ActiveCfg = Release|x86
+		{67284E6D-D912-4E2B-9DAA-D164495D9A33}.Release|x86.Build.0 = Release|x86
+		{C496DA8B-6A61-4E33-9342-6DBE32DA8031}.Debug|x86.ActiveCfg = Development
+		{C496DA8B-6A61-4E33-9342-6DBE32DA8031}.Development|x86.ActiveCfg = Development
+		{C496DA8B-6A61-4E33-9342-6DBE32DA8031}.Development|x86.Build.0 = Development
+		{C496DA8B-6A61-4E33-9342-6DBE32DA8031}.Release|x86.ActiveCfg = Development
+		{C496DA8B-6A61-4E33-9342-6DBE32DA8031}.Release|x86.Build.0 = Development
+		{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}.Debug|x86.ActiveCfg = Development
+		{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}.Development|x86.ActiveCfg = Development
+		{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}.Development|x86.Build.0 = Development
+		{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}.Development|x86.Deploy.0 = Development
+		{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}.Release|x86.ActiveCfg = Development
+		{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}.Release|x86.Build.0 = Development
+		{CFD4EDC2-1784-4149-8ECB-A6C0808FA45A}.Release|x86.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

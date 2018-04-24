@@ -1,0 +1,124 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ThesisesOLAP</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>0oDyyJIzfMesosijuXFXLxv89Hw=2.7.2013 г. 23:46:36 ч.2.7.2013 г. 23:38:13 ч.</TimeStamp>
+        <ID>
+          <String>ThesisesDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>kxu0BsVntLe4w9QoSfA6rU8vgQE=2.7.2013 г. 23:39:08 ч.2.7.2013 г. 23:39:07 ч.</TimeStamp>
+        <ID>
+          <String>ThesisesDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0pK6xHYEOgRZT+ZbqmEPY3mYvGc=3.7.2013 г. 17:35:56 ч.3.7.2013 г. 17:03:38 ч.</TimeStamp>
+        <ID>
+          <String>A DATES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bA/1MmnEO4URjEdaniPzgfddu6I=3.7.2013 г. 18:06:39 ч.3.7.2013 г. 17:03:38 ч.</TimeStamp>
+        <ID>
+          <String>SPECIALITIES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TpZjlHOxUJLEyEShJAIKYGqiJsw=3.7.2013 г. 17:54:55 ч.3.7.2013 г. 17:03:38 ч.</TimeStamp>
+        <ID>
+          <String>OFFICIALS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ge83SnbH/SlzjJ4n/POo56N7c9w=3.7.2013 г. 17:51:40 ч.3.7.2013 г. 17:03:38 ч.</TimeStamp>
+        <ID>
+          <String>COUNTRIES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+DXxoLn42gpukz3IsbFHjWDf/T8=3.7.2013 г. 17:53:48 ч.3.7.2013 г. 17:03:38 ч.</TimeStamp>
+        <ID>
+          <String>EDUCATION FORMS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Gh8QvX0JdgULeOtTVWJzFaJCg7Q=3.7.2013 г. 18:51:39 ч.3.7.2013 г. 18:46:16 ч.</TimeStamp>
+        <ID>
+          <String>B DATES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KVw4XJLfpkuP1uv66/dAqcxCdjk=3.7.2013 г. 18:50:16 ч.3.7.2013 г. 18:46:16 ч.</TimeStamp>
+        <ID>
+          <String>KEYWORDS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CW/zGhb0WzZ/sAYD9+B7qaqZmeE=3.7.2013 г. 18:50:54 ч.3.7.2013 г. 18:46:16 ч.</TimeStamp>
+        <ID>
+          <String>DEPARTAMENTS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VVdFKfc7pOPtRLqSpiPWPoHpu0o=19.7.2013 г. 10:33:07 ч.3.7.2013 г. 17:03:38 ч.5dCZ0Qd6AyA5svaKe/Nc6iDvNCw=3.7.2013 г. 17:03:38 ч.3.7.2013 г. 17:03:38 ч.</TimeStamp>
+        <ID>
+          <String>ThesisesDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0h7dzw5UCJBBbvsVvJc81tlVLEU=19.7.2013 г. 10:33:30 ч.3.7.2013 г. 18:46:16 ч.o7M5lfpFcxHQIUZE8K0QWIgaqPs=3.7.2013 г. 18:46:17 ч.3.7.2013 г. 18:46:16 ч.</TimeStamp>
+        <ID>
+          <String>ThesisesCubeB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>uOal6/wNEBKVwAZq7zREpuyOSWc=3.7.2013 г. 18:56:01 ч.3.7.2013 г. 18:54:38 ч.</TimeStamp>
+        <ID>
+          <String>SPECIALITIES_AS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>SS1cqmqY/n0mbBsWhvKV6tHfntw=19.7.2013 г. 10:32:56 ч.19.6.2013 г. 13:57:59 ч.</TimeStamp>
+      <ID>
+        <String>ThesisesOLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2014-01-14T16:51:02.586667Z</LastDeployed>
+</DeploymentSnapshot>
