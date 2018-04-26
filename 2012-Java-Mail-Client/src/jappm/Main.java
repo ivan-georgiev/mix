@@ -86,24 +86,6 @@ public class Main {
         }
 
 
-
-        //        mailAccounts.put(2, new Mail(
-        //                "thesis.testmail@gmail.com", "thesis.testmail@gmail.com",
-        //                "12qwzxas", "12qwzxas",
-        //                "imaps", "smtps",
-        //                "imap.gmail.com", "smtp.gmail.com",
-        //                993, 465,//993,465 143,25
-        //                false));
-        //
-        //        mailAccounts.put(3, new Mail(
-        //                "thesis.testmail@gmail.com", "thesis.testmail@gmail.com",
-        //                "12qwzxas", "12qwzxas",
-        //                "pop3s", "smtps",
-        //                "pop.gmail.com", "smtp.gmail.com",
-        //                995, 465,
-        //                false));
-
-
         Controller controller = new Controller(db, mailAccounts);
 
         JF_MainW mainWindow = new JF_MainW(controller);
