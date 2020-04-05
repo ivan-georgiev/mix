@@ -53,7 +53,6 @@ function Get-GitHash {
                 # init
                 $hasher = [Security.Cryptography.HashAlgorithm]::Create($type)
                 $buffer = [System.Byte[]]::new($chunkSizeInKBytes * 1024)
-                [ulong]$totalBytes = 0
 
                 $file = Get-Item -Path $item -ErrorAction Stop
 
@@ -65,7 +64,6 @@ function Get-GitHash {
                 $stream = ([IO.StreamReader]$file.FullName).BaseStream
                 do {
                     $bytesRead = $stream.Read($buffer, 0, $buffer.Length)
-                    $totalBytes += $bytesRead
                     [void] $hasher.TransformBlock($buffer, 0, $bytesRead, $buffer, 0)
                 } while ($bytesRead -eq $buffer.Length)
                 
@@ -92,4 +90,3 @@ function Get-GitHash {
         }
     }
 }
-
